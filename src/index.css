@@ -1,0 +1,12 @@
+@font-face {
+  font-family: Outfit;
+  font-style: normal;
+  font-weight: 400 700;
+  src: url("../src/assets/fonts/Outfit-Regular.ttf"), format("ttf");
+}
+
+@import "tailwindcss";
+
+@theme {
+  --font-outfit: Outfit, "sans-serif";
+}
